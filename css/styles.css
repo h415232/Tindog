@@ -4,11 +4,15 @@ body {
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
     color: white;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 /***** CLASS SELECTOR *****/
@@ -44,9 +48,32 @@ h1 {
     transform: rotate(25deg);    
 }
 
+.icon-feat {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon-feat:hover {
+    color: #ff4c68;
+}
+
+.feat-item {
+    text-align: center;
+    padding: 7%
+}
+
+.feat-desc {
+    font-weight: 300;
+    color: #8f8f8f
+}
+
 /***** ID SELECTOR *****/
 #title {
     background-color: #ff4c68;
+}
+
+#features {
+    padding: 3rem 0;
 }
 
 
