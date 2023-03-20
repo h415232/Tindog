@@ -67,6 +67,10 @@ h3 {
     color: #8f8f8f
 }
 
+.carousel-item {
+    padding: 7% 15%;
+}
+
 /***** ID SELECTOR *****/
 #title {
     background-color: #ff4c68;
@@ -76,6 +80,38 @@ h3 {
     padding: 3rem 0;
 }
 
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;    
+}
+
+#testimonials h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#testimonials em {
+    color: white;
+}
+
+#testimonials img {
+    border-radius: 100%;
+    width: 10%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 13%;
+    margin: 20px 20px 50px;
+}
 
 /* FONT */
 /*
