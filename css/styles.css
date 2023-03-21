@@ -71,6 +71,10 @@ h3 {
     padding: 7% 15%;
 }
 
+.pricing-card {
+    padding: 3% 2%;
+}
+
 /***** ID SELECTOR *****/
 #title {
     background-color: #ff4c68;
@@ -113,6 +117,23 @@ h3 {
     margin: 20px 20px 50px;
 }
 
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#pricing h2 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+#pricing .head {
+    font-size: 3rem;
+}
+
+#pricing p {
+    color: gray;
+}
 /* FONT */
 /*
 font-family: 'Montserrat', sans-serif;
