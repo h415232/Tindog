@@ -17,7 +17,7 @@ h3 {
 
 /***** CLASS SELECTOR *****/
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .navbar {
@@ -44,8 +44,10 @@ h3 {
 }
 
 .title-img {
-    width: 60%;
-    transform: rotate(25deg);    
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
 }
 
 .icon-feat {
@@ -78,10 +80,13 @@ h3 {
 /***** ID SELECTOR *****/
 #title {
     background-color: #ff4c68;
+    position: relative;
 }
 
 #features {
     padding: 3rem 0;
+    background-color: white;
+    position: relative;
 }
 
 #testimonials {
