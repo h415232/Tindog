@@ -139,6 +139,21 @@ h3 {
 #pricing p {
     color: gray;
 }
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        text-align: center;
+        position: static;
+        transform: rotate(0);
+        width: 30%;
+    }
+    
+}
 /* FONT */
 /*
 font-family: 'Montserrat', sans-serif;
